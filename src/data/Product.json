@@ -1,0 +1,220 @@
+
+[
+  {
+    "id": "1",
+    "category": "fashion",
+    "type": "top",
+    "name": "friends-enjoying",
+    "gender": "women",
+    "new": true,
+    "sale": false,
+    "data": {}, 
+    "rate": 4,
+    "price": 45,
+    "originPrice": 55,
+    "brand": "gucci",
+    "sold": 12,
+    "quantity": 100,
+    "quantityPurchase": 1,
+  
+    
+    "thumbImage": [
+      "/images/tourTravel/friends-enjoying.jpg",
+      "/images/tourTravel/friends-enjoying.jpg"
+    ]
+  },
+  {
+    "id": "2",
+    "category": "fashion",
+    "type": "t-shirt",
+    "name": "Golden Triangle Tour",
+    "gender": "women",
+    "new": true,
+    "sale": false,
+    "rate": 5,
+    "price": 28,
+    "originPrice": 36,
+    "brand": "hermes",
+    "sold": 23,
+    "quantity": 200,
+    "quantityPurchase": 1,
+    "thumbImage": [
+      "/images/tourTravel/goldenTriangleTour.jpg",
+      "/images/tourTravel/goldenTriangleTour.jpg"
+    ]
+  },
+  {
+    "id": "3",
+    "category": "fashion",
+    "type": "dress",
+    "name": "Enjoy Travler",
+    "gender": "women",
+    "new": false,
+    "sale": true,
+    "rate": 4,
+    "price": 32,
+    "originPrice": 40,
+    "brand": "zara",
+    "sold": 15,
+    "quantity": 80,
+    "quantityPurchase": 1,
+   
+   
+    "thumbImage": [
+     "/images/tourTravel/friends-enjoying.jpg",
+     "/images/tourTravel/friends-enjoying.jpg"
+
+
+    ]
+
+  },
+  {
+    
+    
+    "thumbImage": [
+      "/images/tourTravel/rajasthanPackage.jpg",
+      "/images/tourTravel/rajasthanPackage.jpg"
+      
+    ]
+  },
+  {
+    "id": "7",
+    "category": "fashion",
+    "type": "shirt",
+    "name": "Travel view",
+    "gender": "women",
+    "new": false,
+    "sale": true,
+    "rate": 4,
+    "price": 32,
+    "originPrice": 40,
+    "brand": "zara",
+    "sold": 22,
+    "quantity": 80,
+    "quantityPurchase": 1,
+    "sizes": [
+      "freesize"
+    ],
+    "thumbImage": [
+      "/images/tourTravel/route.jpeg",
+      "/images/tourTravel/route.jpeg"
+    ]
+  },
+  {
+    "id": "8",
+    "category": "fashion",
+    "type": "sets",
+    "name": "happy passenger",
+    "gender": "women",
+    "new": false,
+    "sale": true,
+    "rate": 5,
+    "price": 24,
+    "originPrice": 32,
+    "brand": "adidas",
+    "sold": 45,
+    "quantity": 100,
+    "quantityPurchase": 1,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "variation": [
+    ],
+    "thumbImage": [
+      "/images/tourTravel/passenger.jpeg",
+      "/images/tourTravel/passenger.jpeg"
+
+    ],
+    "images": [
+      "/images/product/1000x1000.png",
+      "/images/product/1000x1000.png",
+      "/images/product/1000x1000.png",
+      "/images/product/1000x1000.png"
+    ],
+    "description":"Happy Passenger reflects the joy and satisfaction of a comfortable, stress-free journey. Whether traveling for business or leisure, a happy passenger enjoys seamless service, smooth rides, and attentive care. With a focus on comfort and convenience, every ride becomes a pleasant experience, ensuring passengers arrive at their destination with a smile.",
+    "action": "add to cart",
+    "slug": "kimono"
+  },
+  {
+    "id": "9",
+    "category": "fashion",
+    "type": "t-shirt",
+    "name": "vehicle",
+    "gender": "women",
+    "new": true,
+    "sale": false,
+    "rate": 4,
+    "price": 35,
+    "originPrice": 45,
+    "brand": "gucci",
+    "sold": 12,
+    "quantity": 100,
+    "quantityPurchase": 1,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ]
+  },
+  {
+    "id": "10",
+    "category": "fashion",
+    "type": "t-shirt",
+    "name": "Hotel",
+    "gender": "women",
+    "new": true,
+    "sale": false,
+    "rate": 5,
+    "price": 28,
+    "originPrice": 36,
+    "brand": "hermes",
+    "sold": 12,
+    "quantity": 200,
+    "quantityPurchase": 1,
+    "thumbImage": [
+      "/images/tourTravel/Hotel.jpeg",
+      "/images/tourTravel/Hotel.jpeg"
+
+    ],
+    "description":"A hotel is a commercial establishment that provides lodging, meals, and various services to travelers. It offers different types of rooms, from basic to luxurious, and may include amenities such as pools, gyms, restaurants, and spas. Hotels cater to both short-term and long-term stays, ensuring comfort and convenience.",
+    "action": "quick shop",
+    "slug": "shirt"
+  },
+  {
+    "id": "11",
+    "category": "fashion",
+    "type": "t-shirt",
+    "name": "Explore world",
+    "gender": "women",
+    "new": false,
+    "sale": true,
+    "rate": 4,
+    "price": 32,
+    "originPrice": 40,
+    "brand": "zara",
+    "sold": 14,
+    "quantity": 80,
+    "quantityPurchase": 1,
+    "sizes": [
+      "freesize"
+    ],
+    "thumbImage": [
+    "/images/tourTravel/exploreWorld.jpeg",
+    "/images/tourTravel/exploreWorld.jpeg"
+
+    ],
+    "description":  "Explore the world with our travel website! Discover amazing destinations, hidden gems, and unforgettable experiences. Whether you're seeking adventure, relaxation, or cultural exploration, we provide expert tips, travel guides, and booking options. Start planning your next journey and experience the beauty of the world in every corner!",
+    "action": "add to cart",
+    "slug": "blouse"
+  },
+  {
+    "thumbImage": [
+      "/images/tourTravel/uttrakhandH.jpg",
+      "/images/product/1000x1000.png"
+    ]
+  }
+]	
