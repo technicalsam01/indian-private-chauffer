@@ -15,7 +15,7 @@ export interface DescriptionContent {
 export const tours = [
     {
         id: "1",
-        title: 'Golden Triangle Tour: 6 Days',
+        title: 'Golden Triangle Tour: 7 Days',
         cities: 'Delhi – Agra – Jaipur – Delhi in 6 days',
         description: [
             {
@@ -424,7 +424,7 @@ export const tours = [
     ,
     {
         id: "4",
-        title: 'Rajasthan PALACE Tour: 10 Days',
+        title: 'Rajasthan PALACE Tour: 12 Days',
         cities: {
             destinations: 'Delhi - Jaipur - Jodhpur - Udaipur - Jaisalmer - Bikaner - Mandawa - Delhi',
             duration: '09 Nights / 10 Days',
@@ -888,7 +888,7 @@ export const tours = [
     ,
     {
         id: "7",
-        title: 'Rajasthan DESERT Tour : 16 Days',
+        title: 'Rajasthan DESERT Tour : 7 Days',
         cities: 'Destinations Covered: Delhi - Mandawa - Bikaner - Jaisalmer - Jodhpur - Jaipur - Delhi',
         description: [
             {
@@ -975,10 +975,10 @@ export const tours = [
                 type: 'text',
                 content: 'Check-in at the hotel in Jaisalmer for an overnight stay.',
             },
-            // Add remaining days' itinerary here for completeness...
+    
             {
                 type: 'heading',
-                content: 'Day 17: Delhi',
+                content: 'Day 7: Delhi',
             },
             {
                 type: 'list',

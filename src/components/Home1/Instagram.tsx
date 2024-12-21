@@ -13,7 +13,7 @@ const Instagram = () => {
             <div className="instagram-block md:pt-20 pt-10">
                 <div className="container">
                     <div className="heading">
-                        <div className="text-4xl font-bold mb-2 text-center">indianPrivateChauffeur On Instagram</div>
+                        <div className="text-4xl font-bold mb-2 text-center">indiaPrivateChauffeur On Instagram</div>
                         <div className="text-center mt-3">#indiaPrivateChauffeur</div>
                     </div>
                     <div className="list-instagram md:mt-10 mt-6">

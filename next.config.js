@@ -4,6 +4,9 @@ const nextConfig = {
     images: {
         // You don't need the domains or remotePatterns section if you're using internal images
     },
+    experimental: {
+        middleware: false, // Disable middleware if it's not needed
+    },
 }
 
 module.exports = nextConfig;

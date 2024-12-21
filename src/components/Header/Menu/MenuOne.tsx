@@ -57,7 +57,7 @@ const MenuOne: React.FC<Props> = ({ props }) => {
 
                         <div className="left flex items-center gap-16">
                             <Link href="/" className="flex items-center max-lg:absolute max-lg:left-1/2 max-lg:-translate-x-1/2">
-                                <div className="heading5 text-lg md:text-xl lg:text-2xl font-semibold">Indian Private Chauffeur</div>
+                                <div className="heading5 text-lg md:text-xl lg:text-2xl font-semibold">India Private Chauffeur</div>
                             </Link>
                         </div>
 

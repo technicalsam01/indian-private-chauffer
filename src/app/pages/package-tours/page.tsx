@@ -36,17 +36,17 @@ const PackageToursPage = () => {
                 <div className="container mx-auto flex flex-col lg:flex-row gap-12">
                     {/* Left Side: Tour List */}
                     <div className="w-full lg:w-1/3">
-                        <div className="bg-[#ffffff] p-6 rounded-lg shadow-md sticky top-20">
-                            <h2 className="text-2xl font-bold text-center mb-6 text-heading bg-[#f5f5f5] rounded-lg heading3 sm:text-3xl py-2 px-2">Explore Tours</h2>
+                        <div className="bg-[#FAF9F6] p-6 rounded-lg shadow-md sticky top-20">
+                            <h2 className="text-2xl font-bold text-center mb-6 text-heading bg-[#f5f5f5] rounded-lg heading3 sm:text-3xl py-2 px-2 hover:text-[#14213d]">Explore Tours</h2>
                             <ul className="space-y-6">
                                 {tours.map((tour, index) => (
                                     <li key={index}>
                                         <button
                                             onClick={() => handleButtonClick(tour, index)} // Update the onClick handler
-                                            className={`block w-full p-4 text-left rounded-lg shadow-md transition-all duration-300 transform bg-[#d48735] ${
+                                            className={`block w-full p-4 text-left rounded-lg shadow-md transition-all duration-300 transform bg-[#FFFFFF] ${
                                                 activeTour?.title === tour.title
-                                                    ? 'bg-orange-600 text-white scale-105'
-                                                    : 'bg-gray-200 text-gray-800 hover:bg-orange-500 hover:text-white'
+                                                    ? 'bg-orange-600 text-[#023047] scale-105'
+                                                    : 'bg-gray-200 text-gray-800 hover:bg-orange-500 hover:text-[#cf7345]'
                                             }`}
                                         >
                                             {tour.title}

@@ -50,7 +50,7 @@ const AboutUs = () => {
                         </div>
                     </div>
                     <p className="text-lg md:text-2xl font-light mt-10 max-w-3xl mx-auto">
-                        <strong className='text-[#d48735]'>IndianPrivateChauffer</strong> offers customized travel services throughout Rajasthan. Whether you&apos;re exploring the pink city of Jaipur, the majestic desert of Jaisalmer, or the serene landscapes of Udaipur, we are dedicated to providing a luxurious and comfortable travel experience with a personal touch.
+                        <strong className='text-[#d48735]'>IndiaPrivateChauffer</strong> offers customized travel services throughout Rajasthan. Whether you&apos;re exploring the pink city of Jaipur, the majestic desert of Jaisalmer, or the serene landscapes of Udaipur, we are dedicated to providing a luxurious and comfortable travel experience with a personal touch.
                     </p>
 
                 </div>
