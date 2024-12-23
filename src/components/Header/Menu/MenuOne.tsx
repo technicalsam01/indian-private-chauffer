@@ -167,8 +167,8 @@ const MenuOne: React.FC<Props> = ({ props }) => {
                                     </li>
                                     <li>
                                         <Link
-                                            href="#!"
-                                            className={`text-button-uppercase duration-300 flex items-center justify-center ${pathname === '#!' ? 'active text-primary' : ''}`}
+                                            href="/pages/testimonials"
+                                            className={`text-button-uppercase duration-300 flex items-center justify-center ${pathname === '/pages/testimonials' ? 'active text-primary' : ''}`}
                                         >
                                             TESTIMONIALS
                                         </Link>
