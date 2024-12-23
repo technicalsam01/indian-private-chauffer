@@ -104,8 +104,8 @@ const Page = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-blue-600 text-white py-16 text-center">
-        <h2 className="text-4xl font-bold mb-6">Ready for Your Royal Journey?</h2>
+      <section className="bg-blue-600 py-16 text-center">
+        <h2 className="text-4xl font-bold mb-6">Ready for Your <strong className="text-[#d48735]">Royal Journey?</strong> </h2>
         <p className="text-xl mb-6">Book your Udaipur Palace Tour today and explore the most beautiful palaces in Rajasthan!</p>
         <a
           href="/pages/contact"
