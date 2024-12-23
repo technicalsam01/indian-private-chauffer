@@ -8,53 +8,53 @@ import Footer from '@/components/Footer/Footer';
 const carData = [
   {
     id: 1,
-    name: "Luxury Sedan",
-    image: "/images/cars/Crysta.jpeg", // Replace with actual image URL
-    description: "Experience the luxury and comfort with our premium sedan, perfect for long trips.",
-    features: "Leather seats, Sunroof, Climate control",
+    name: "Toyota Crysta",
+    image: "/images/cars/Crysta.jpeg", 
+    description: "The Toyota Crysta is a luxurious MPV that ensures a smooth and comfortable ride for large groups. Whether you're on a family vacation or a business trip, this vehicle provides ample space and top-notch comfort.",
+    features: "Leather seats, Sunroof, Climate control, Spacious interiors",
   },
   {
     id: 2,
-    name: "Sporty Coupe",
-    image: "/images/cars/hycross.jpeg", // Replace with actual image URL
-    description: "Get ready for a thrilling ride with our sporty coupe, designed for speed and style.",
-    features: "Sporty design, Turbocharged engine, Advanced safety features",
+    name: "Toyota Hycross",
+    image: "/images/cars/hycross.jpeg", 
+    description: "The Toyota Hycross blends modern design with versatility, offering excellent performance and ample seating. It's perfect for those who seek both style and practicality in their vehicle.",
+    features: "Sporty design, Turbocharged engine, Advanced safety features, Eco-friendly technology",
   },
   {
     id: 3,
-    name: "Convertible",
-    image: "/images/cars/convertible.jpg", // Replace with actual image URL
-    description: "Feel the wind in your hair with our sleek convertible, perfect for scenic drives.",
-    features: "Retractable roof, Premium sound system, LED lights",
+    name: "Toyota Etios",
+    image: "/images/cars/etios.jpeg", 
+    description: "The Toyota Etios is an affordable, reliable, and fuel-efficient sedan, designed for city driving. It’s the perfect car for those who value practicality and comfort without compromising on quality.",
+    features: "Compact size, Fuel-efficient, Spacious boot, Safety airbags",
   },
   {
     id: 4,
-    name: "Family SUV",
-    image: "/images/cars/suv.jpg", // Replace with actual image URL
-    description: "A spacious and comfortable SUV, perfect for family adventures.",
-    features: "3-row seating, Advanced infotainment, 4WD",
+    name: "Mini Bus",
+    image: "/images/cars/miniBus.png", 
+    description: "Ideal for larger groups or events, our Mini Bus provides a comfortable and safe way to travel in groups. With plenty of seating and space, it's perfect for tours, corporate trips, or group travel.",
+    features: "Seating for up to 30 passengers, AC, Wi-Fi, Reclining seats",
   },
   {
     id: 5,
-    name: "Compact Hatchback",
-    image: "/images/cars/hatchback.jpg", // Replace with actual image URL
-    description: "A compact, fuel-efficient car ideal for city driving.",
-    features: "Eco-friendly, Compact size, Efficient fuel economy",
+    name: "Urbania",
+    image: "/images/cars/urbania.jpeg",
+    description: "The Urbani is a compact hatchback perfect for urban commuters. With its efficient engine and small size, it makes navigating through traffic a breeze, offering both convenience and fuel savings.",
+    features: "Eco-friendly, Compact size, Efficient fuel economy, Easy parking",
   },
   {
     id: 6,
-    name: "Electric Car",
-    image: "/images/cars/electric.jpg", // Replace with actual image URL
-    description: "Drive into the future with our eco-friendly electric car, built for modern living.",
-    features: "Zero emissions, Fast charging, High-tech infotainment",
+    name: "Volvo Bus",
+    image: "/images/cars/volvo.jpeg", 
+    description: "Our Volvo Bus combines safety and comfort for long-distance travel. Whether you're on a group tour or corporate travel, the bus is designed to provide a smooth and comfortable experience for all passengers.",
+    features: "Ergonomic seating, High-tech infotainment, Onboard restrooms, Advanced safety features",
   },
-  {
-    id: 7,
-    name: "Luxury SUV",
-    image: "/images/cars/luxury_suv.jpg", // Replace with actual image URL
-    description: "Combining elegance and power, our luxury SUV offers top-tier features for those who demand the best.",
-    features: "Heated seats, Panoramic sunroof, Adaptive cruise control",
-  },
+  // {
+  //   id: 7,
+  //   name: "Luxury SUV",
+  //   image: "/images/cars/luxury_suv.jpg", 
+  //   description: "Our Luxury SUV is a top-of-the-line vehicle combining power, elegance, and comfort. With advanced features and spacious interiors, this car ensures an unforgettable travel experience for both business and leisure.",
+  //   features: "Heated seats, Panoramic sunroof, Adaptive cruise control, Premium sound system",
+  // },
 ];
 
 const CarData = () => {

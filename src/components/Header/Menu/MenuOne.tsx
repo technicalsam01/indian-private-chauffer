@@ -97,20 +97,20 @@ const MenuOne: React.FC<Props> = ({ props }) => {
                                 </li>
                                 <li className="h-full relative">
                                     <Link
-                                        href="#!"
-                                        className={`text-button-uppercase duration-300 h-full flex items-center justify-center text-sm md:text-base ${pathname === '#!' ? 'active text-primary' : ''}`}
+                                        href="/pages/testimonials"
+                                        className={`text-button-uppercase duration-300 h-full flex items-center justify-center text-sm md:text-base ${pathname === '/pages/testimonials' ? 'active text-primary' : ''}`}
                                     >
                                         TESTIMONIALS
                                     </Link>
                                 </li>
-                                <li className="h-full relative">
+                                {/* <li className="h-full relative">
                                     <Link
                                         href="#!"
                                         className={`text-button-uppercase duration-300 h-full flex items-center justify-center text-sm md:text-base ${pathname === '#!' ? 'active text-primary' : ''}`}
                                     >
                                         REFERENCE
                                     </Link>
-                                </li>
+                                </li> */}
                                 <li className="h-full relative">
                                     <Link
                                         href="/pages/gallery"
@@ -159,8 +159,8 @@ const MenuOne: React.FC<Props> = ({ props }) => {
                                     </li>
                                     <li>
                                         <Link
-                                            href="#!"
-                                            className={`text-button-uppercase duration-300 flex items-center justify-center ${pathname === '#!' ? 'active text-primary' : ''}`}
+                                            href="/pages/cars"
+                                            className={`text-button-uppercase duration-300 flex items-center justify-center ${pathname === '/pages/cars' ? 'active text-primary' : ''}`}
                                         >
                                             CARS
                                         </Link>
@@ -173,18 +173,18 @@ const MenuOne: React.FC<Props> = ({ props }) => {
                                             TESTIMONIALS
                                         </Link>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <Link
                                             href="#!"
                                             className={`text-button-uppercase duration-300 flex items-center justify-center ${pathname === '#!' ? 'active text-primary' : ''}`}
                                         >
                                             REFERENCE
                                         </Link>
-                                    </li>
+                                    </li> */}
                                     <li>
                                         <Link
-                                            href="#!"
-                                            className={`text-button-uppercase duration-300 flex items-center justify-center ${pathname === '#!' ? 'active text-primary' : ''}`}
+                                            href="/pages/gallery"
+                                            className={`text-button-uppercase duration-300 flex items-center justify-center ${pathname === 'pages/gallery' ? 'active text-primary' : ''}`}
                                         >
                                             GALLERY
                                         </Link>
