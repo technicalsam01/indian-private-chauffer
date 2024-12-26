@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { FaWhatsapp } from "react-icons/fa";
 import { CiMail } from "react-icons/ci";
 import Link from 'next/link';
-const whatsappNumber = "9799866326";
+const whatsappNumber = "919799866326";
 const emailAddress = "skystarjpr@yahoo.com.in";
 
 const tours = [
@@ -47,7 +47,7 @@ const tours = [
     id: "6",
     title: "Rajasthan Ethnic Tours",
     days: "10 Days",
-    image: '/images/slider/packegeTours/rajasthanEthnic.jpeg',
+    image: '/images/slider/packegeTours/Ethenic.jpg',
     description: "Rajasthan offers a stunning blend of rich history, Rajasthan royal palaces, and desert landscapes. Explore vibrant cities like Jaipur, Udaipur, and Jodhpur, with their majestic forts, temples, and colorful cultural experiences."
   },
   {

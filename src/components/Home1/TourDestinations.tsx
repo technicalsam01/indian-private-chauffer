@@ -14,10 +14,10 @@ const TourDestinations = () => {
 
         {/* Tour Card */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="relative bg-white shadow-lg rounded-lg overflow-hidden">
+          {/* <div className="relative bg-white shadow-lg rounded-lg overflow-hidden">
             <div className="relative h-80 w-full">
               <Image
-                src="/images/gallery/UdaipurTour.jpg" // Replace with new image for Udaipur Palace
+                src="/images/gallery/UdaipurTour.jpg" 
                 alt="Udaipur Palace"
                 layout="fill"
                 objectFit="cover"
@@ -36,9 +36,32 @@ const TourDestinations = () => {
                 Learn More &rarr;
               </Link>
             </div>
+          </div> */}
+          <div className="relative bg-white shadow-lg rounded-lg overflow-hidden">
+            <div className="relative h-80 w-full">
+              <Image
+                src="/images/gallery/UdaipurTour.jpg"
+                alt="Udaipur Palace"
+                fill // This will make the image fill the container
+                style={{ objectFit: 'cover' }} // This ensures the image maintains the cover behavior
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="absolute inset-0 flex flex-col justify-center items-center text-center bg-black bg-opacity-50 text-white p-6">
+              <h3 className="text-2xl font-semibold">Udaipur Palace Tour</h3>
+              <p className="mt-2 mb-4 text-lg">
+                Explore the City of Lakes with its stunning palaces and temples, surrounded by tranquil waters.
+              </p>
+              <Link
+                href="/pages/UdaipurPalaceTours"
+                className="text-white text-xl font-medium hover:text-[#d48735] transition-colors duration-300"
+              >
+                Learn More &rarr;
+              </Link>
+            </div>
           </div>
 
-          <div className="relative bg-white shadow-lg rounded-lg overflow-hidden">
+          {/* <div className="relative bg-white shadow-lg rounded-lg overflow-hidden">
             <div className="relative h-80 w-full">
               <Image
                 src="/images/gallery/Ranthambore Safari.jpg" // Replace with new image for Ranthambore Safari
@@ -60,9 +83,33 @@ const TourDestinations = () => {
                 Learn More &rarr;
               </Link>
             </div>
+          </div> */}
+          <div className="relative bg-white shadow-lg rounded-lg overflow-hidden">
+            <div className="relative h-80 w-full">
+              <Image
+                src="/images/gallery/Ranthambore Safari.jpg" // Replace with new image for Ranthambore Safari
+                alt="Ranthambore Safari"
+                fill // Replacing `layout="fill"` with `fill` (for responsive and full-width behavior)
+                style={{ objectFit: 'cover' }} // Apply objectFit directly via style
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="absolute inset-0 flex flex-col justify-center items-center text-center bg-black bg-opacity-50 text-white p-6">
+              <h3 className="text-2xl font-semibold">Ranthambore Safari</h3>
+              <p className="mt-2 mb-4 text-lg">
+                Embark on a thrilling wildlife adventure in one of India’s largest national parks, home to tigers and exotic wildlife.
+              </p>
+              <Link
+                href="/pages/RanthamboreSafariTours"
+                className="text-white text-xl font-medium hover:text-[#d48735] transition-colors duration-300"
+              >
+                Learn More &rarr;
+              </Link>
+            </div>
           </div>
 
-          <div className="relative bg-white shadow-lg rounded-lg overflow-hidden">
+
+          {/* <div className="relative bg-white shadow-lg rounded-lg overflow-hidden">
             <div className="relative h-80 w-full">
               <Image
                 src="/images/gallery/Mehrangarh.jpg" // Replace with new image for Mehrangarh Fort
@@ -84,7 +131,31 @@ const TourDestinations = () => {
                 Learn More &rarr;
               </Link>
             </div>
+          </div> */}
+          <div className="relative bg-white shadow-lg rounded-lg overflow-hidden">
+            <div className="relative h-80 w-full">
+              <Image
+                src="/images/gallery/Mehrangarh.jpg" // Replace with new image for Mehrangarh Fort
+                alt="Mehrangarh Fort"
+                fill // Use `fill` to make the image fill the parent container
+                style={{ objectFit: 'cover' }} // Apply `objectFit: 'cover'` via `style`
+                className="w-full h-full" // Ensure full width and height
+              />
+            </div>
+            <div className="absolute inset-0 flex flex-col justify-center items-center text-center bg-black bg-opacity-50 text-white p-6">
+              <h3 className="text-2xl font-semibold">Mehrangarh Fort Tour</h3>
+              <p className="mt-2 mb-4 text-lg">
+                Discover the grandiosity of Mehrangarh Fort in Jodhpur, one of India’s largest and most majestic forts.
+              </p>
+              <Link
+                href="/pages/MehrangarhTours"
+                className="text-white text-xl font-medium hover:text-[#d48735] transition-colors duration-300"
+              >
+                Learn More &rarr;
+              </Link>
+            </div>
           </div>
+
         </div>
       </div>
     </section>

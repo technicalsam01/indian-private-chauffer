@@ -260,7 +260,7 @@ const ContactUs = () => {
         <Breadcrumb heading="Explore India" subHeading="Discover India" />
       </div>
       <div className="container mx-auto py-12">
-        <h1 className="text-3xl font-bold mb-8 text-center">Tour Options</h1>
+        <h1 className="text-3xl font-bold mb-8 text-center">Tour <strong className='text-[#d48735]'>Options</strong></h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
           {tours.map((tour) => (
             <a
@@ -291,7 +291,7 @@ const ContactUs = () => {
             {/* Card 1 */}
             <div className="relative group overflow-hidden rounded-lg shadow-lg">
               <Image
-                src={'/images/slider/JaipurTwo.jpeg'}
+                src='/images/slider/JaipurTwo.jpeg'
                 alt="Elephant Ride"
                 layout="responsive"
                 width={300}
@@ -308,7 +308,7 @@ const ContactUs = () => {
             {/* Card 2 */}
             <div className="relative group overflow-hidden rounded-lg shadow-lg">
               <Image
-                src={'/images/slider/Jalmahal.jpeg'}
+                src='/images/slider/Jalmahal.jpeg'
                 alt="Jal Mahal"
                 layout="responsive"
                 width={300}
@@ -323,7 +323,7 @@ const ContactUs = () => {
             </div>
             <div className="relative group overflow-hidden rounded-lg shadow-lg">
               <Image
-                src={'/images/slider/Gatore.jpeg'}
+                src='/images/slider/Gatore.jpeg'
                 alt="Gatore ki chatri"
                 layout="responsive"
                 width={300}

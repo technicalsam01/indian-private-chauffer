@@ -67,7 +67,7 @@ const CarData = () => {
 
       <div className="py-16 bg-gray-100">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-semibold text-center text-gray-900 mb-12">Our Vehicle Fleet</h2>
+          <h2 className="text-3xl font-semibold text-center text-gray-900 mb-12">Our <strong className='text-[#d48735]'>Vehicle</strong> Fleet</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {carData.map((car) => (
               <div key={car.id} className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">

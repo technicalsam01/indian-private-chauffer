@@ -32,7 +32,7 @@ const AboutUs = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                         <div className="flex justify-center items-center">
                             <Image
-                                src="/images/gallery/aboutUs.jpg"
+                                src="/images/gallery/Temple.jpg"
                                 alt="Jaipur City View"
                                 width={500}
                                 height={300}
@@ -41,7 +41,7 @@ const AboutUs = () => {
                         </div>
                         <div className="flex justify-center items-center">
                             <Image
-                                src="/images/gallery/aboutUsTwo.jpg"
+                                src="/images/gallery/Elephant.jpg"
                                 alt="Rajasthan Desert"
                                 width={500}
                                 height={300}
