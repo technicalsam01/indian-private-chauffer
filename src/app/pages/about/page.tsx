@@ -59,13 +59,13 @@ const AboutUs = () => {
             <section className="py-16 bg-white">
                 <div className="container mx-auto text-center px-6">
                     <h2 className="text-3xl md:text-4xl font-semibold text-blue-600 mb-6">
-                        Meet the Owner <strong className='text-[#d48735]'>Tarachandra &apos;Ji&apos;</strong>
+                        Meet the Owner <strong className='text-[#d48735]'>Tarachand &apos;Ji&apos;</strong>
                     </h2>
                     <div className="flex justify-center items-center mb-8">
                         <div className="w-48 h-48 rounded-full overflow-hidden shadow-lg">
                             <Image
                                 src="/images/slider/4.jpg"
-                                alt="Tarachandra Ji"
+                                alt="Tarachand Ji"
                                 width={200}
                                 height={200}
                                 className="object-cover w-full h-full"
@@ -73,7 +73,7 @@ const AboutUs = () => {
                         </div>
                     </div>
                     <p className="text-lg md:text-2xl font-light max-w-3xl mx-auto">
-                        Tarachandra &apos;Ji&apos;, the founder of IndianPrivateChauffer, is a seasoned professional with over 15 years of experience in the travel and hospitality industry. His passion for Rajasthan’s rich culture and his commitment to delivering exceptional customer service are the driving forces behind the success of this service. Tarachandra &apos;Ji&apos; personally oversees each tour to ensure a safe, comfortable, and unforgettable experience for every traveler.
+                        Tarachand &apos;Ji&apos;, the founder of IndiaPrivateChauffer, is a seasoned professional with over 15 years of experience in the travel and hospitality industry. His passion for Rajasthan’s rich culture and his commitment to delivering exceptional customer service are the driving forces behind the success of this service. Tarachand &apos;Ji&apos; personally oversees each tour to ensure a safe, comfortable, and unforgettable experience for every traveler.
                     </p>
                 </div>
             </section>
@@ -84,7 +84,7 @@ const AboutUs = () => {
                         Our Mission
                     </h2>
                     <p className="text-lg md:text-2xl font-light max-w-3xl mx-auto">
-                        Our mission at <strong className='text-[#d48735]'>IndianPrivateChauffer</strong> is to offer more than just a ride. We believe in creating unforgettable memories by curating personalized experiences that showcase the vibrant culture, history, and beauty of Rajasthan. We are committed to responsible tourism that respects both the environment and local traditions.
+                        Our mission at <strong className='text-[#d48735]'>IndiaPrivateChauffer</strong> is to offer more than just a ride. We believe in creating unforgettable memories by curating personalized experiences that showcase the vibrant culture, history, and beauty of Rajasthan. We are committed to responsible tourism that respects both the environment and local traditions.
                     </p>
                 </div>
             </section>
@@ -97,7 +97,7 @@ const AboutUs = () => {
                     <div className="flex justify-center items-center">
                         <div className="max-w-3xl mx-auto">
                             <blockquote className="text-xl font-light italic text-gray-600 mb-4">
-                                &quot;Traveling with <strong className='text-[#d48735]'>IndianPrivateChauffer</strong> was a fantastic experience. <strong className='text-[#d48735]'>Tarachandra &apos;Ji&apos;</strong> personal touch and attention to detail made our journey through Rajasthan seamless and unforgettable. Highly recommend!&quot;
+                                &quot;Traveling with <strong className='text-[#d48735]'>IndiaPrivateChauffer</strong> was a fantastic experience. <strong className='text-[#d48735]'>Tarachand &apos;Ji&apos;</strong> personal touch and attention to detail made our journey through Rajasthan seamless and unforgettable. Highly recommend!&quot;
                             </blockquote>
 
                             <p className="text-lg font-semibold text-blue-600">— Hitesh Kumar, Jaipur</p>

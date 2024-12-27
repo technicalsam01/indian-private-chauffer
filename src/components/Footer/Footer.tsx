@@ -18,9 +18,9 @@ const Footer = () => {
                                 <span className="text-button">Address:</span>
                             </div>
                             <div className="flex flex-col space-y-1"> {/* Reduced space-y to 1 */}
-                                <span className="text-base">skystarjpr@yahoo.com.in</span>
-                                <span className="text-base">+91-941 434 9229</span>
-                                <span className="text-base">s-4 Raja-Park, Tilak Nagar Jaipur, Rajasthan</span>
+                                <span className="text-base">skystarjpr@yahoo.co.in</span>
+                                <span className="text-base">+91 9799866326</span>
+                                <span className="text-base">25, Keshar Nagar, 200ft. Bypass, Bajri Mandi Road Panchwayala, Vaishali Nagar, Jaipur -302034</span>
                             </div>
                         </div>
                     </div>

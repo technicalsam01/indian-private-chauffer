@@ -30,7 +30,7 @@ const SliderOne = () => {
                                 <div className="text-content basis-1/2">
                                     <div className="text-sub-display">Explore Now! Up To 50% Off!</div>
                                     <div className="text-display md:mt-5 mt-2">
-                                        Discover Destinations With <strong className='text-primary'>Tara Chandra ji</strong>
+                                        Discover Destinations With <strong className='text-primary'>Tara Chand ji</strong>
                                     </div>
                                 </div>
                                 <div className="slider-block style-one bg-linear xl:h-[860px] lg:h-[800px] md:h-[580px] sm:h-[500px] h-[350px] max-[420px]:h-[320px] flex items-center justify-center bg-blue-500">

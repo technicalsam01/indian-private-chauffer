@@ -101,39 +101,30 @@ export const tours = [
             },
         ],
         image: '/images/slider/GoldenTriangle.jpeg',
-    }
-    ,
-
+    },
     {
         id: "2",
-        title: 'Rajasthan: 11 Days',
-        cities: 'Delhi - Agra - Jaipur - Jodhpur - Jaisalmer - Udaipur - Delhi',
+        title: 'Rajasthan DESERT Tour : 7 Days',
+        cities: 'Destinations Covered: Delhi - Mandawa - Bikaner - Jaisalmer - Jodhpur - Jaipur - Delhi',
         description: [
             {
                 type: 'heading',
-                content: 'Day 1: Delhi',
+                content: 'Day 01: Arrival at Delhi',
             },
             {
                 type: 'text',
-                content: 'Arrival at Indira Gandhi International Airport. Transfer to hotel by car. Overnight stay at the hotel.',
+                content: 'You will be received at Indira Gandhi International Airport at New Delhi and then transferred to the hotel for an overnight stay.',
             },
             {
                 type: 'heading',
-                content: 'Day 2: Delhi',
+                content: 'Day 02: Delhi',
             },
             {
                 type: 'list',
                 content: [
-                    'Red Fort',
-                    'Jama Masjid',
-                    'Raj Ghat (cremation place of Mahatma Gandhi)',
-                    'Qutub Minar',
-                    'Lotus Temple',
-                    'Humayun’s Tomb',
-                    'Indira Gandhi Museum',
-                    'India Gate',
-                    'President House',
-                    'Birla Temple',
+                    'Sightseeing tour of Delhi including Red Fort, Jama Masjid, a rickshaw ride in the 400 years old market of Chandni Chowk, and Raj Ghat in Old Delhi.',
+                    'Visit Birla Temple, Parliament House, Presidential House, India Gate, Government buildings, and Qutub Minar in New Delhi.',
+                    'Enjoy Mughlai cuisine for dinner and watch Indian cultural dance performances in the evening.',
                 ],
             },
             {
@@ -142,40 +133,29 @@ export const tours = [
             },
             {
                 type: 'heading',
-                content: 'Day 3: Delhi to Agra',
+                content: 'Day 03: Mandawa',
             },
             {
                 type: 'list',
                 content: [
-                    'Sikandra',
-                    'Dayal Bagh',
-                    'Agra Fort',
-                    'Itimad-ud-Daula',
+                    'Drive to Mandawa in the Shekhawati region after breakfast.',
+                    'Visit the 150 to 200-year-old carved and painted Havelis with beautiful frescoes done in natural colors.',
                 ],
             },
             {
                 type: 'text',
-                content: 'Overnight stay in Agra.',
+                content: 'Check-in at the hotel for an overnight stay.',
             },
             {
                 type: 'heading',
-                content: 'Day 4: Agra to Jaipur',
-            },
-            {
-                type: 'text',
-                content: 'Early morning visit to the Taj Mahal. Afternoon drive to Jaipur via Fatehpur Sikri. Overnight stay in Jaipur.',
-            },
-            {
-                type: 'heading',
-                content: 'Day 5: Jaipur',
+                content: 'Day 04: Bikaner',
             },
             {
                 type: 'list',
                 content: [
-                    'Early morning visit to Amber Fort with an elephant ride to ascend the hilltop fort.',
-                    'Visit Jal Mahal ("The Water Palace").',
-                    'Sightseeing tour of Jaipur: Hawa Mahal, City Palace, Royal Observatory, and Jaigarh Fort.',
-                    'Enjoy a traditional Rajasthani Thali dinner.',
+                    'Drive to Bikaner and check-in at the hotel.',
+                    'Visit the world-famous Camel Breeding Farms to ride camels and taste camel milk.',
+                    'Explore Junagarh Fort, Lalgarh Palace, and the Fort Museum in the afternoon.',
                 ],
             },
             {
@@ -184,79 +164,53 @@ export const tours = [
             },
             {
                 type: 'heading',
-                content: 'Day 6: Jaipur to Jodhpur',
+                content: 'Day 05: Khimsar',
             },
             {
                 type: 'list',
                 content: [
-                    'Early morning transfer to Jodhpur (5-6 hours drive).',
-                    'Half-day village safari.',
-                    'Afternoon visit to Mehrangarh Fort, Jaswant Thada, and Mandore Garden.',
-                    'Evening free time at Old City Market.',
+                    'Drive to Khimsar after breakfast, visiting the 600-year-old Deshnok Rat Temple enroute.',
+                    'Visit Khimsar Fort and go on a camel safari to nearby villages, capturing sunset views of the Thar Desert.',
                 ],
             },
             {
                 type: 'text',
-                content: 'Overnight stay at the hotel.',
+                content: 'Overnight stay at the hotel in Khimsar.',
             },
             {
                 type: 'heading',
-                content: 'Day 7: Jodhpur to Jaisalmer',
-            },
-            {
-                type: 'text',
-                content: 'Early morning drive to Jaisalmer (4-5 hours drive). Half-day city visit or leisure time. Overnight stay in Jaisalmer hotel.',
-            },
-            {
-                type: 'heading',
-                content: 'Day 8: Jaisalmer',
+                content: 'Day 06: Ossian/Jaisalmer',
             },
             {
                 type: 'list',
                 content: [
-                    'After breakfast, visit Golden Jaisalmer Fort, Jain Temple, Manak Chowk, and Havelis.',
-                    'Visit Sam Sand Dunes (42 km): enjoy camel rides, gypsy dances, and dinner.',
-                    'Optional overnight stay in Royal Tents or in Jaisalmer hotel.',
+                    'Drive to Jaisalmer, visiting the 7th century Mahavira Jain Temple and the 2000-year-old Jija Mata Temple at Ossian village enroute.',
                 ],
             },
             {
-                type: 'heading',
-                content: 'Day 9: Jaisalmer to Udaipur',
-            },
-            {
                 type: 'text',
-                content: 'After breakfast, drive to Udaipur. Visit the city and enjoy an optional boat ride in Lake Pichola and visit Jag Mandir. Overnight stay at the hotel.',
+                content: 'Check-in at the hotel in Jaisalmer for an overnight stay.',
             },
+    
             {
                 type: 'heading',
-                content: 'Day 10: Udaipur',
+                content: 'Day 7: Delhi',
             },
             {
                 type: 'list',
                 content: [
-                    'City Palace',
-                    'Jagdish Temple',
-                    'Bhartiya Lok Kala Museum',
-                    'Sahelion-ki-Bari',
+                    'Drive back to Delhi in the morning and check-in at the hotel.',
+                    'Spend the day at leisure or go shopping.',
+                    'Enjoy a farewell dinner at the hotel.',
                 ],
             },
             {
                 type: 'text',
-                content: 'Overnight stay in Udaipur.',
-            },
-            {
-                type: 'heading',
-                content: 'Day 11: Udaipur to Delhi',
-            },
-            {
-                type: 'text',
-                content: 'Morning sightseeing of Udaipur includes Lake Pichola and other attractions. Evening flight to your next destination.',
+                content: 'You will be escorted to the international airport for your onward journey.',
             },
         ],
-        image: '/images/slider/Rajasthan11Days.jpeg',
-    }
-
-    ,
+        image: '/images/slider/Rajasthan16Days.jpeg',
+    },
     {
         id: "3",
         title: 'Rajasthan Tour: 8 Days',
@@ -419,11 +373,444 @@ export const tours = [
             },
         ],
         image: '/images/slider/Rajasthan8Days.jpeg',
-    }
-
-    ,
+    },
+    {   id: "4",
+        title: 'Rajasthan Palace Tour: 10 Days',
+        cities: {
+            destinations: 'Delhi - Jaipur - Sariska - Mandawa - Bikaner - Khimsar - Jodhpur - Delhi',
+            duration: '09 Nights / 10 Days',
+        },
+        description: [
+            {
+                type: 'heading',
+                content: 'Day 01: Arrival at Delhi',
+            },
+            {
+                type: 'text',
+                content: 'Warm traditional welcome at the airport. Transfer to the hotel for an overnight stay.',
+            },
+            {
+                type: 'heading',
+                content: 'Day 02: Delhi',
+            },
+            {
+                type: 'list',
+                content: [
+                    'Visit Red Fort, Jama Masjid, and Chandni Chowk.',
+                    'Explore Rajghat, India Gate, Rashtrapati Bhavan, and Mughal Gardens.',
+                    'Visit Qutub Minar and Humayun\'s Tomb.',
+                    'Evening sound and light show at Red Fort.',
+                ],
+            },
+            {
+                type: 'text',
+                content: 'Overnight stay at the hotel.',
+            },
+            {
+                type: 'heading',
+                content: 'Day 03: Jaipur',
+            },
+            {
+                type: 'list',
+                content: [
+                    'Drive to Jaipur and check in at the hotel.',
+                    'Visit Amber Fort, City Palace, Hawa Mahal, Jantar Mantar, Jai Garh Fort, and Sisodia-Rani-Ka-Bagh.',
+                    'Evening shopping or leisure time.',
+                ],
+            },
+            {
+                type: 'text',
+                content: 'Overnight stay at the hotel.',
+            },
+            {
+                type: 'heading',
+                content: 'Day 04: Sariska',
+            },
+            {
+                type: 'text',
+                content: 'Drive to Sariska Wildlife Sanctuary and spot wildlife species, including tigers. Overnight stay at Sariska resort.',
+            },
+            {
+                type: 'heading',
+                content: 'Day 05: Mandawa',
+            },
+            {
+                type: 'text',
+                content: 'Drive to Mandawa. Explore the painted Havelis from the 18th and 19th centuries. Overnight stay at the hotel.',
+            },
+            {
+                type: 'heading',
+                content: 'Day 06: Bikaner',
+            },
+            {
+                type: 'list',
+                content: [
+                    'Drive to Bikaner and visit Camel Breeding Farm, Junagarh Fort, Lalgarh Palace, and Jain Temples.',
+                    'Leisure time in the evening.',
+                ],
+            },
+            {
+                type: 'text',
+                content: 'Overnight stay at the hotel.',
+            },
+            {
+                type: 'heading',
+                content: 'Day 07: Bikaner',
+            },
+            {
+                type: 'list',
+                content: [
+                    'Sightseeing tour of Bikaner, including Junagarh Fort and Jain Temples.',
+                    'Relish the famous Bikaneri Bhujia.',
+                ],
+            },
+            {
+                type: 'text',
+                content: 'Overnight stay at the hotel.',
+            },
+            {
+                type: 'heading',
+                content: 'Day 08: Khimsar',
+            },
+            {
+                type: 'list',
+                content: [
+                    'Travel to Khimsar and check in at the hotel.',
+                    'Visit Khimsar Fort and enjoy traditional Rajasthani cuisine.',
+                ],
+            },
+            {
+                type: 'text',
+                content: 'Overnight stay at the hotel.',
+            },
+            {
+                type: 'heading',
+                content: 'Day 09: Jodhpur',
+            },
+            {
+                type: 'list',
+                content: [
+                    'Drive to Jodhpur and visit Mehrangarh Fort, Umaid Bhawan Palace, and Jaswant Thada.',
+                    'Evening visit to the local markets.',
+                ],
+            },
+            {
+                type: 'text',
+                content: 'Overnight stay at the hotel.',
+            },
+            {
+                type: 'heading',
+                content: 'Day 10: Delhi',
+            },
+            {
+                type: 'text',
+                content: 'Drive back to Delhi and depart for your onward journey.',
+            },
+        ],
+        image: '/images/slider/Rajasthan10DayesTwo.jpeg',
+    },
     {
-        id: "4",
+        id: "5",
+        title: 'Rajasthan Ethnic Tour : 10 Days',
+        cities: 'Destinations Covered: Delhi - Agra - Jaipur - Jodhpur - Udaipur - Kishangarh - Delhi',
+        description: [
+            {
+                type: 'heading',
+                content: 'Day 01: Arrival at Delhi',
+            },
+            {
+                type: 'text',
+                content: 'You will be received at the Indira Gandhi International Airport in New Delhi and transferred to the hotel, where a warm traditional welcome awaits you, complete with garlands, a welcome drink, and sweets. Overnight stay at the hotel.',
+            },
+            {
+                type: 'heading',
+                content: 'Day 02: Delhi',
+            },
+            {
+                type: 'list',
+                content: [
+                    'In the morning, go on a sightseeing tour of Delhi after breakfast in an A/C deluxe coach.',
+                    'Visit Raj Ghat, Mahatma Gandhi\'s memorial, Jama Masjid, Red Fort, Chandani Chowk, and its delicacies in Old Delhi.',
+                    'Explore Humayun\'s Tomb, Qutub Minar, Rajpath, India Gate, Parliament House, President\'s Residence in New Delhi.',
+                    'Shop at Connaught Place and Palika Bazaar.',
+                    'In the evening, enjoy traditional dance performances.',
+                ],
+            },
+            {
+                type: 'text',
+                content: 'Dinner and overnight stay at the hotel.',
+            },
+            {
+                type: 'heading',
+                content: 'Day 03: Agra',
+            },
+            {
+                type: 'list',
+                content: [
+                    'Drive to Agra (4-5 hours) and visit Taj Mahal, Agra Fort, Tomb of Itmad-ud-Daulah, and shopping markets.',
+                    'Enjoy Mughlai cuisine for dinner.',
+                ],
+            },
+            {
+                type: 'text',
+                content: 'Overnight stay at the hotel in Agra.',
+            },
+            {
+                type: 'heading',
+                content: 'Day 04: Jaipur',
+            },
+            {
+                type: 'list',
+                content: [
+                    'Drive to Jaipur, visiting Fatehpur Sikri enroute. Explore Sheikh Chi\'s Tomb, Buland Darwaza, Panch Mahal, and Jodha Bai\'s Palace.',
+                    'Check in at the hotel in Jaipur, also known as the Pink City.',
+                ],
+            },
+            {
+                type: 'text',
+                content: 'Overnight stay at the hotel in Jaipur.',
+            },
+            {
+                type: 'heading',
+                content: 'Day 05: Jaipur',
+            },
+            {
+                type: 'list',
+                content: [
+                    'Excursion to Amber Palace, enjoy a royal ride on an elephant to the hilltop.',
+                    'Visit City Palace, Chandra Mahal, Shri Govind Deo Temple, City Palace Museum, Jantar Mantar, and Hawa Mahal.',
+                    'Spend the evening at leisure or shop in the colorful bazaars of Jaipur.',
+                ],
+            },
+            {
+                type: 'text',
+                content: 'Overnight stay at the hotel.',
+            },
+            {
+                type: 'heading',
+                content: 'Day 06: Jodhpur',
+            },
+            {
+                type: 'list',
+                content: [
+                    'Drive to Jodhpur and visit Mehrangarh Fort, Jaswant Thada Memorial.',
+                    'Overnight stay at the hotel.',
+                ],
+            },
+            {
+                type: 'heading',
+                content: 'Day 07: Udaipur',
+            },
+            {
+                type: 'list',
+                content: [
+                    'Drive to Udaipur, visiting the Jain Temple of Ranakpur enroute.',
+                    'Check in at the hotel in Udaipur, the City of Lakes.',
+                ],
+            },
+            {
+                type: 'heading',
+                content: 'Day 08: Udaipur',
+            },
+            {
+                type: 'list',
+                content: [
+                    'Sightseeing tour of Udaipur, including City Palace, Shish Mahal, and the royal museum.',
+                    'Motor launch cruise on Lake Pichola, Jag Mandir and Jag Niwas islands, Jagdish Temple, and the Royal Cenotaphs.',
+                ],
+            },
+            {
+                type: 'text',
+                content: 'Overnight stay at the hotel.',
+            },
+            {
+                type: 'heading',
+                content: 'Day 09: Pushkar',
+            },
+            {
+                type: 'list',
+                content: [
+                    'Drive to Pushkar, visiting Dargah Sharif in Ajmer on the way.',
+                    'Visit the Brahma Temple, Pushkar Lake, 52 bathing Ghats, and more than 500 temples.',
+                    'Explore the Rose Garden and witness the famous Pushkar Camel Fair (if lucky).',
+                ],
+            },
+            {
+                type: 'text',
+                content: 'Overnight stay at the hotel in Pushkar.',
+            },
+            {
+                type: 'heading',
+                content: 'Day 10: Kishangarh/ Delhi',
+            },
+            {
+                type: 'list',
+                content: [
+                    'Drive to Kishangarh, known for its miniature paintings and handicrafts.',
+                    'Visit the Fort of Kishangarh and have lunch at Phool Mahal.',
+                    'Watch birds at Gundalao Lake and drive to Delhi for departure.',
+                ],
+            },
+            {
+                type: 'text',
+                content: 'Evening transfer to Delhi airport for onward flight.',
+            },
+        ],
+        image: '/images/slider/Rajasthan10DaysThree.jpeg',
+    },
+    {
+        id: "6",
+        title: 'Rajasthan: 11 Days',
+        cities: 'Delhi - Agra - Jaipur - Jodhpur - Jaisalmer - Udaipur - Delhi',
+        description: [
+            {
+                type: 'heading',
+                content: 'Day 1: Delhi',
+            },
+            {
+                type: 'text',
+                content: 'Arrival at Indira Gandhi International Airport. Transfer to hotel by car. Overnight stay at the hotel.',
+            },
+            {
+                type: 'heading',
+                content: 'Day 2: Delhi',
+            },
+            {
+                type: 'list',
+                content: [
+                    'Red Fort',
+                    'Jama Masjid',
+                    'Raj Ghat (cremation place of Mahatma Gandhi)',
+                    'Qutub Minar',
+                    'Lotus Temple',
+                    'Humayun’s Tomb',
+                    'Indira Gandhi Museum',
+                    'India Gate',
+                    'President House',
+                    'Birla Temple',
+                ],
+            },
+            {
+                type: 'text',
+                content: 'Overnight stay at the hotel.',
+            },
+            {
+                type: 'heading',
+                content: 'Day 3: Delhi to Agra',
+            },
+            {
+                type: 'list',
+                content: [
+                    'Sikandra',
+                    'Dayal Bagh',
+                    'Agra Fort',
+                    'Itimad-ud-Daula',
+                ],
+            },
+            {
+                type: 'text',
+                content: 'Overnight stay in Agra.',
+            },
+            {
+                type: 'heading',
+                content: 'Day 4: Agra to Jaipur',
+            },
+            {
+                type: 'text',
+                content: 'Early morning visit to the Taj Mahal. Afternoon drive to Jaipur via Fatehpur Sikri. Overnight stay in Jaipur.',
+            },
+            {
+                type: 'heading',
+                content: 'Day 5: Jaipur',
+            },
+            {
+                type: 'list',
+                content: [
+                    'Early morning visit to Amber Fort with an elephant ride to ascend the hilltop fort.',
+                    'Visit Jal Mahal ("The Water Palace").',
+                    'Sightseeing tour of Jaipur: Hawa Mahal, City Palace, Royal Observatory, and Jaigarh Fort.',
+                    'Enjoy a traditional Rajasthani Thali dinner.',
+                ],
+            },
+            {
+                type: 'text',
+                content: 'Overnight stay at the hotel.',
+            },
+            {
+                type: 'heading',
+                content: 'Day 6: Jaipur to Jodhpur',
+            },
+            {
+                type: 'list',
+                content: [
+                    'Early morning transfer to Jodhpur (5-6 hours drive).',
+                    'Half-day village safari.',
+                    'Afternoon visit to Mehrangarh Fort, Jaswant Thada, and Mandore Garden.',
+                    'Evening free time at Old City Market.',
+                ],
+            },
+            {
+                type: 'text',
+                content: 'Overnight stay at the hotel.',
+            },
+            {
+                type: 'heading',
+                content: 'Day 7: Jodhpur to Jaisalmer',
+            },
+            {
+                type: 'text',
+                content: 'Early morning drive to Jaisalmer (4-5 hours drive). Half-day city visit or leisure time. Overnight stay in Jaisalmer hotel.',
+            },
+            {
+                type: 'heading',
+                content: 'Day 8: Jaisalmer',
+            },
+            {
+                type: 'list',
+                content: [
+                    'After breakfast, visit Golden Jaisalmer Fort, Jain Temple, Manak Chowk, and Havelis.',
+                    'Visit Sam Sand Dunes (42 km): enjoy camel rides, gypsy dances, and dinner.',
+                    'Optional overnight stay in Royal Tents or in Jaisalmer hotel.',
+                ],
+            },
+            {
+                type: 'heading',
+                content: 'Day 9: Jaisalmer to Udaipur',
+            },
+            {
+                type: 'text',
+                content: 'After breakfast, drive to Udaipur. Visit the city and enjoy an optional boat ride in Lake Pichola and visit Jag Mandir. Overnight stay at the hotel.',
+            },
+            {
+                type: 'heading',
+                content: 'Day 10: Udaipur',
+            },
+            {
+                type: 'list',
+                content: [
+                    'City Palace',
+                    'Jagdish Temple',
+                    'Bhartiya Lok Kala Museum',
+                    'Sahelion-ki-Bari',
+                ],
+            },
+            {
+                type: 'text',
+                content: 'Overnight stay in Udaipur.',
+            },
+            {
+                type: 'heading',
+                content: 'Day 11: Udaipur to Delhi',
+            },
+            {
+                type: 'text',
+                content: 'Morning sightseeing of Udaipur includes Lake Pichola and other attractions. Evening flight to your next destination.',
+            },
+        ],
+        image: '/images/slider/Rajasthan11Days.jpeg',
+    },
+    {
+        id: "7",
         title: 'Rajasthan PALACE Tour: 12 Days',
         cities: {
             destinations: 'Delhi - Jaipur - Jodhpur - Udaipur - Jaisalmer - Bikaner - Mandawa - Delhi',
@@ -597,406 +984,7 @@ export const tours = [
             },
         ],
         image: '/images/slider/Rajasthan10DayesOne.jpeg',
-    }
-
-    ,
-    {   id: "5",
-        title: 'Rajasthan Palace Tour: 10 Days',
-        cities: {
-            destinations: 'Delhi - Jaipur - Sariska - Mandawa - Bikaner - Khimsar - Jodhpur - Delhi',
-            duration: '09 Nights / 10 Days',
-        },
-        description: [
-            {
-                type: 'heading',
-                content: 'Day 01: Arrival at Delhi',
-            },
-            {
-                type: 'text',
-                content: 'Warm traditional welcome at the airport. Transfer to the hotel for an overnight stay.',
-            },
-            {
-                type: 'heading',
-                content: 'Day 02: Delhi',
-            },
-            {
-                type: 'list',
-                content: [
-                    'Visit Red Fort, Jama Masjid, and Chandni Chowk.',
-                    'Explore Rajghat, India Gate, Rashtrapati Bhavan, and Mughal Gardens.',
-                    'Visit Qutub Minar and Humayun\'s Tomb.',
-                    'Evening sound and light show at Red Fort.',
-                ],
-            },
-            {
-                type: 'text',
-                content: 'Overnight stay at the hotel.',
-            },
-            {
-                type: 'heading',
-                content: 'Day 03: Jaipur',
-            },
-            {
-                type: 'list',
-                content: [
-                    'Drive to Jaipur and check in at the hotel.',
-                    'Visit Amber Fort, City Palace, Hawa Mahal, Jantar Mantar, Jai Garh Fort, and Sisodia-Rani-Ka-Bagh.',
-                    'Evening shopping or leisure time.',
-                ],
-            },
-            {
-                type: 'text',
-                content: 'Overnight stay at the hotel.',
-            },
-            {
-                type: 'heading',
-                content: 'Day 04: Sariska',
-            },
-            {
-                type: 'text',
-                content: 'Drive to Sariska Wildlife Sanctuary and spot wildlife species, including tigers. Overnight stay at Sariska resort.',
-            },
-            {
-                type: 'heading',
-                content: 'Day 05: Mandawa',
-            },
-            {
-                type: 'text',
-                content: 'Drive to Mandawa. Explore the painted Havelis from the 18th and 19th centuries. Overnight stay at the hotel.',
-            },
-            {
-                type: 'heading',
-                content: 'Day 06: Bikaner',
-            },
-            {
-                type: 'list',
-                content: [
-                    'Drive to Bikaner and visit Camel Breeding Farm, Junagarh Fort, Lalgarh Palace, and Jain Temples.',
-                    'Leisure time in the evening.',
-                ],
-            },
-            {
-                type: 'text',
-                content: 'Overnight stay at the hotel.',
-            },
-            {
-                type: 'heading',
-                content: 'Day 07: Bikaner',
-            },
-            {
-                type: 'list',
-                content: [
-                    'Sightseeing tour of Bikaner, including Junagarh Fort and Jain Temples.',
-                    'Relish the famous Bikaneri Bhujia.',
-                ],
-            },
-            {
-                type: 'text',
-                content: 'Overnight stay at the hotel.',
-            },
-            {
-                type: 'heading',
-                content: 'Day 08: Khimsar',
-            },
-            {
-                type: 'list',
-                content: [
-                    'Travel to Khimsar and check in at the hotel.',
-                    'Visit Khimsar Fort and enjoy traditional Rajasthani cuisine.',
-                ],
-            },
-            {
-                type: 'text',
-                content: 'Overnight stay at the hotel.',
-            },
-            {
-                type: 'heading',
-                content: 'Day 09: Jodhpur',
-            },
-            {
-                type: 'list',
-                content: [
-                    'Drive to Jodhpur and visit Mehrangarh Fort, Umaid Bhawan Palace, and Jaswant Thada.',
-                    'Evening visit to the local markets.',
-                ],
-            },
-            {
-                type: 'text',
-                content: 'Overnight stay at the hotel.',
-            },
-            {
-                type: 'heading',
-                content: 'Day 10: Delhi',
-            },
-            {
-                type: 'text',
-                content: 'Drive back to Delhi and depart for your onward journey.',
-            },
-        ],
-        image: '/images/slider/Rajasthan10DayesTwo.jpeg',
-    }
-    ,
-    {
-        id: "6",
-        title: 'Rajasthan Ethnic Tour : 10 Days',
-        cities: 'Destinations Covered: Delhi - Agra - Jaipur - Jodhpur - Udaipur - Kishangarh - Delhi',
-        description: [
-            {
-                type: 'heading',
-                content: 'Day 01: Arrival at Delhi',
-            },
-            {
-                type: 'text',
-                content: 'You will be received at the Indira Gandhi International Airport in New Delhi and transferred to the hotel, where a warm traditional welcome awaits you, complete with garlands, a welcome drink, and sweets. Overnight stay at the hotel.',
-            },
-            {
-                type: 'heading',
-                content: 'Day 02: Delhi',
-            },
-            {
-                type: 'list',
-                content: [
-                    'In the morning, go on a sightseeing tour of Delhi after breakfast in an A/C deluxe coach.',
-                    'Visit Raj Ghat, Mahatma Gandhi\'s memorial, Jama Masjid, Red Fort, Chandani Chowk, and its delicacies in Old Delhi.',
-                    'Explore Humayun\'s Tomb, Qutub Minar, Rajpath, India Gate, Parliament House, President\'s Residence in New Delhi.',
-                    'Shop at Connaught Place and Palika Bazaar.',
-                    'In the evening, enjoy traditional dance performances.',
-                ],
-            },
-            {
-                type: 'text',
-                content: 'Dinner and overnight stay at the hotel.',
-            },
-            {
-                type: 'heading',
-                content: 'Day 03: Agra',
-            },
-            {
-                type: 'list',
-                content: [
-                    'Drive to Agra (4-5 hours) and visit Taj Mahal, Agra Fort, Tomb of Itmad-ud-Daulah, and shopping markets.',
-                    'Enjoy Mughlai cuisine for dinner.',
-                ],
-            },
-            {
-                type: 'text',
-                content: 'Overnight stay at the hotel in Agra.',
-            },
-            {
-                type: 'heading',
-                content: 'Day 04: Jaipur',
-            },
-            {
-                type: 'list',
-                content: [
-                    'Drive to Jaipur, visiting Fatehpur Sikri enroute. Explore Sheikh Chi\'s Tomb, Buland Darwaza, Panch Mahal, and Jodha Bai\'s Palace.',
-                    'Check in at the hotel in Jaipur, also known as the Pink City.',
-                ],
-            },
-            {
-                type: 'text',
-                content: 'Overnight stay at the hotel in Jaipur.',
-            },
-            {
-                type: 'heading',
-                content: 'Day 05: Jaipur',
-            },
-            {
-                type: 'list',
-                content: [
-                    'Excursion to Amber Palace, enjoy a royal ride on an elephant to the hilltop.',
-                    'Visit City Palace, Chandra Mahal, Shri Govind Deo Temple, City Palace Museum, Jantar Mantar, and Hawa Mahal.',
-                    'Spend the evening at leisure or shop in the colorful bazaars of Jaipur.',
-                ],
-            },
-            {
-                type: 'text',
-                content: 'Overnight stay at the hotel.',
-            },
-            {
-                type: 'heading',
-                content: 'Day 06: Jodhpur',
-            },
-            {
-                type: 'list',
-                content: [
-                    'Drive to Jodhpur and visit Mehrangarh Fort, Jaswant Thada Memorial.',
-                    'Overnight stay at the hotel.',
-                ],
-            },
-            {
-                type: 'heading',
-                content: 'Day 07: Udaipur',
-            },
-            {
-                type: 'list',
-                content: [
-                    'Drive to Udaipur, visiting the Jain Temple of Ranakpur enroute.',
-                    'Check in at the hotel in Udaipur, the City of Lakes.',
-                ],
-            },
-            {
-                type: 'heading',
-                content: 'Day 08: Udaipur',
-            },
-            {
-                type: 'list',
-                content: [
-                    'Sightseeing tour of Udaipur, including City Palace, Shish Mahal, and the royal museum.',
-                    'Motor launch cruise on Lake Pichola, Jag Mandir and Jag Niwas islands, Jagdish Temple, and the Royal Cenotaphs.',
-                ],
-            },
-            {
-                type: 'text',
-                content: 'Overnight stay at the hotel.',
-            },
-            {
-                type: 'heading',
-                content: 'Day 09: Pushkar',
-            },
-            {
-                type: 'list',
-                content: [
-                    'Drive to Pushkar, visiting Dargah Sharif in Ajmer on the way.',
-                    'Visit the Brahma Temple, Pushkar Lake, 52 bathing Ghats, and more than 500 temples.',
-                    'Explore the Rose Garden and witness the famous Pushkar Camel Fair (if lucky).',
-                ],
-            },
-            {
-                type: 'text',
-                content: 'Overnight stay at the hotel in Pushkar.',
-            },
-            {
-                type: 'heading',
-                content: 'Day 10: Kishangarh/ Delhi',
-            },
-            {
-                type: 'list',
-                content: [
-                    'Drive to Kishangarh, known for its miniature paintings and handicrafts.',
-                    'Visit the Fort of Kishangarh and have lunch at Phool Mahal.',
-                    'Watch birds at Gundalao Lake and drive to Delhi for departure.',
-                ],
-            },
-            {
-                type: 'text',
-                content: 'Evening transfer to Delhi airport for onward flight.',
-            },
-        ],
-        image: '/images/slider/Rajasthan10DaysThree.jpeg',
-    }
-    ,
-    {
-        id: "7",
-        title: 'Rajasthan DESERT Tour : 7 Days',
-        cities: 'Destinations Covered: Delhi - Mandawa - Bikaner - Jaisalmer - Jodhpur - Jaipur - Delhi',
-        description: [
-            {
-                type: 'heading',
-                content: 'Day 01: Arrival at Delhi',
-            },
-            {
-                type: 'text',
-                content: 'You will be received at Indira Gandhi International Airport at New Delhi and then transferred to the hotel for an overnight stay.',
-            },
-            {
-                type: 'heading',
-                content: 'Day 02: Delhi',
-            },
-            {
-                type: 'list',
-                content: [
-                    'Sightseeing tour of Delhi including Red Fort, Jama Masjid, a rickshaw ride in the 400 years old market of Chandni Chowk, and Raj Ghat in Old Delhi.',
-                    'Visit Birla Temple, Parliament House, Presidential House, India Gate, Government buildings, and Qutub Minar in New Delhi.',
-                    'Enjoy Mughlai cuisine for dinner and watch Indian cultural dance performances in the evening.',
-                ],
-            },
-            {
-                type: 'text',
-                content: 'Overnight stay at the hotel.',
-            },
-            {
-                type: 'heading',
-                content: 'Day 03: Mandawa',
-            },
-            {
-                type: 'list',
-                content: [
-                    'Drive to Mandawa in the Shekhawati region after breakfast.',
-                    'Visit the 150 to 200-year-old carved and painted Havelis with beautiful frescoes done in natural colors.',
-                ],
-            },
-            {
-                type: 'text',
-                content: 'Check-in at the hotel for an overnight stay.',
-            },
-            {
-                type: 'heading',
-                content: 'Day 04: Bikaner',
-            },
-            {
-                type: 'list',
-                content: [
-                    'Drive to Bikaner and check-in at the hotel.',
-                    'Visit the world-famous Camel Breeding Farms to ride camels and taste camel milk.',
-                    'Explore Junagarh Fort, Lalgarh Palace, and the Fort Museum in the afternoon.',
-                ],
-            },
-            {
-                type: 'text',
-                content: 'Overnight stay at the hotel.',
-            },
-            {
-                type: 'heading',
-                content: 'Day 05: Khimsar',
-            },
-            {
-                type: 'list',
-                content: [
-                    'Drive to Khimsar after breakfast, visiting the 600-year-old Deshnok Rat Temple enroute.',
-                    'Visit Khimsar Fort and go on a camel safari to nearby villages, capturing sunset views of the Thar Desert.',
-                ],
-            },
-            {
-                type: 'text',
-                content: 'Overnight stay at the hotel in Khimsar.',
-            },
-            {
-                type: 'heading',
-                content: 'Day 06: Ossian/Jaisalmer',
-            },
-            {
-                type: 'list',
-                content: [
-                    'Drive to Jaisalmer, visiting the 7th century Mahavira Jain Temple and the 2000-year-old Jija Mata Temple at Ossian village enroute.',
-                ],
-            },
-            {
-                type: 'text',
-                content: 'Check-in at the hotel in Jaisalmer for an overnight stay.',
-            },
-    
-            {
-                type: 'heading',
-                content: 'Day 7: Delhi',
-            },
-            {
-                type: 'list',
-                content: [
-                    'Drive back to Delhi in the morning and check-in at the hotel.',
-                    'Spend the day at leisure or go shopping.',
-                    'Enjoy a farewell dinner at the hotel.',
-                ],
-            },
-            {
-                type: 'text',
-                content: 'You will be escorted to the international airport for your onward journey.',
-            },
-        ],
-        image: '/images/slider/Rajasthan16Days.jpeg',
-    }
-    ,
-
+    },
     {
         id: "8",
         title: "Rajasthan FORT– PALACE Tour : 20 Days",
@@ -1205,6 +1193,4 @@ export const tours = [
         ],
         image: '/images/slider/Rajasthan20Days.jpeg',
     }
-
-
 ];

@@ -17,10 +17,10 @@ const tours = [
   },
   {
     id: "2",
-    title: "Rajasthan",
-    days: "11 Days",
-    image: '/images/slider/packegeTours/Rajasthan10DayesOne.jpeg',
-    description: "Rajasthan offers a stunning blend of rich history, royal palaces, and desert landscapes. Explore vibrant cities like Jaipur, Udaipur, and Jodhpur, with their majestic forts, temples, and colorful cultural experiences."
+    title: "Rajasthan Desert",
+    days: "7 Days",
+    image: '/images/slider/packegeTours/sliderfour.png',
+    description: "Rajasthan Desert Tours offer a unique experience of the Thar Desert. Enjoy camel rides, desert safaris, and starlit camps while discovering sand dunes, traditional villages, and the rugged beauty of Rajasthan's arid landscapes."
   },
   {
     id: "3",
@@ -32,31 +32,34 @@ const tours = [
   {
     id: "4",
     title: "Rajasthan Place Tours",
-    days: "12 Days",
-    image: '/images/slider/packegeTours/Rajasthan8Days.jpeg',
-    description: "Rajasthan Place Tours take you through awe-inspiring forts, palaces, and temples. Visit Udaipur’s Lake Palace, Jodhpur’s Mehrangarh Fort, and Jaipur’s Amber Fort, offering rich history and regal architecture in every corner."
-  },
-  {
-    id: "5",
-    title: "Rajasthan Place Tours",
     days: "10 Days",
     image: '/images/slider/packegeTours/rajasthantour.jpeg',
     description: "Rajasthan Place Tours take you through awe-inspiring forts, palaces, and temples. Visit Udaipur’s Lake Palace, Jodhpur’s Mehrangarh Fort, and Jaipur’s Amber Fort, offering rich history and regal architecture in every corner."
   },
   {
-    id: "6",
+    id: "5",
     title: "Rajasthan Ethnic Tours",
     days: "10 Days",
     image: '/images/slider/packegeTours/Ethenic.jpg',
     description: "Rajasthan offers a stunning blend of rich history, Rajasthan royal palaces, and desert landscapes. Explore vibrant cities like Jaipur, Udaipur, and Jodhpur, with their majestic forts, temples, and colorful cultural experiences."
   },
   {
-    id: "7",
-    title: "Rajasthan Desert",
-    days: "7 Days",
-    image: '/images/slider/packegeTours/sliderfour.png',
-    description: "Rajasthan Desert Tours offer a unique experience of the Thar Desert. Enjoy camel rides, desert safaris, and starlit camps while discovering sand dunes, traditional villages, and the rugged beauty of Rajasthan's arid landscapes."
+    id: "6",
+    title: "Rajasthan",
+    days: "11 Days",
+    image: '/images/slider/packegeTours/Rajasthan10DayesOne.jpeg',
+    description: "Rajasthan offers a stunning blend of rich history, royal palaces, and desert landscapes. Explore vibrant cities like Jaipur, Udaipur, and Jodhpur, with their majestic forts, temples, and colorful cultural experiences."
   },
+
+  {
+    id: "7",
+    title: "Rajasthan Place Tours",
+    days: "12 Days",
+    image: '/images/slider/packegeTours/Rajasthan8Days.jpeg',
+    description: "Rajasthan Place Tours take you through awe-inspiring forts, palaces, and temples. Visit Udaipur’s Lake Palace, Jodhpur’s Mehrangarh Fort, and Jaipur’s Amber Fort, offering rich history and regal architecture in every corner."
+  },
+
+
   {
     id: "8",
     title: "Rajasthan Fort Tours",
